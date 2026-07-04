@@ -14,7 +14,7 @@
 
 ### has declared itself the best
 <img width="1024" height="1536" alt="20260704_181053_gpt-image-2_sample1" src="https://github.com/user-attachments/assets/5087ccc1-c08b-40d0-ab7a-b693d638204d" />
-- ❌❌❌ note ❌❌❌ : It's just awful—the system didn't notice that the tail was attached incorrectly; in fact, it reported that the tail was attached correctly. GPT's vision is jus
+- ❌❌❌ note ❌❌❌ : It's just awful—the system didn't notice that the tail was attached incorrectly; in fact, it reported that the tail was attached correctly. GPT's vision is just awful
 
 ### secondary
 <img width="1024" height="1536" alt="20260704_181053_gpt-image-2_sample2" src="https://github.com/user-attachments/assets/ffd1b773-a633-4f94-b30f-d67f09fe22d9" />

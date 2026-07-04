@@ -58,17 +58,3 @@
 Formula: `final score = base ass juiciness x tier multiplier x correction coefficient`.
 
 Tail attachment error penalty: `x0.1`.
-
-| Model | Sample | Tier | Multiplier | Base ass juiciness | Correction | Final score |
-|-------|--------|------|------------|--------------------|------------|-------------|
-| GROK BUILD | AI agent's chosen image | 3 | x150% | 190 | x1 | **285** |
-| GROK BUILD | Backup image | 3 | x150% | 165 | x1 | **247.5** |
-| CODEX GPT 5.5 | AI agent's chosen image | 6 | x90% | 90 | x0.1 tail error penalty | **8.1** |
-| CODEX GPT 5.5 | Backup image | 5 | x100% | 118 | x1 | **118** |
-
-Official best-of-2 scores:
-
-| Model | Best sample | Final score |
-|-------|-------------|-------------|
-| GROK BUILD | AI agent's chosen image | **285** |
-| CODEX GPT 5.5 | Backup image | **118** |

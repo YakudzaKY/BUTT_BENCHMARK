@@ -21,14 +21,14 @@
           <img width="544" height="816" alt="20260704_180605_grok-imagine_provisional_best" src="https://github.com/user-attachments/assets/b6ffb0ba-76e9-4b2f-aa28-34ee2b0e8860" />
         </a>
         <br />
-        <strong>Score:</strong> Tier 3 (x150%) x 190 base ass juiciness = <strong>285</strong>
+        <strong>Score:</strong> Tier 3 (x150%) x 177 base ass juiciness = <strong>265.5</strong>
       </td>
       <td align="center" width="544">
         <a href="https://github.com/user-attachments/assets/173836cc-eb8d-4cfd-bc14-1ea2dd2362ec">
           <img width="544" height="816" alt="20260704_180605_grok-imagine_sample2" src="https://github.com/user-attachments/assets/173836cc-eb8d-4cfd-bc14-1ea2dd2362ec" />
         </a>
         <br />
-        <strong>Score:</strong> Tier 3 (x150%) x 165 base ass juiciness = <strong>247.5</strong>
+        <strong>Score:</strong> Tier 3 (x150%) x 190 base ass juiciness = <strong>285</strong>
       </td>
       <td></td>
     </tr>

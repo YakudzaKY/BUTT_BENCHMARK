@@ -26,7 +26,7 @@
           <img width="544" height="816" alt="20260704_180605_grok-imagine_sample2" src="https://github.com/user-attachments/assets/173836cc-eb8d-4cfd-bc14-1ea2dd2362ec" />
         </a>
       </td>
-      <td></td>
+      <td>tier 3</td>
     </tr>
     <tr>
       <td><strong>CODEX GPT 5.5</strong></td>
@@ -40,7 +40,7 @@
           <img width="544" height="816" alt="20260704_181053_gpt-image-2_sample2" src="https://github.com/user-attachments/assets/ffd1b773-a633-4f94-b30f-d67f09fe22d9" />
         </a>
       </td>
-      <td>It's just awful - the system didn't notice that the tail was attached incorrectly; in fact, it reported that the tail was attached correctly. GPT's vision is just awful.</td>
+      <td>1st - tier 6 <br>2nd - tier 5 <br> ;It's just awful - the system didn't notice that the tail was attached incorrectly; in fact, it reported that the tail was attached correctly. GPT's vision is just awful.</td>
     </tr>
   </tbody>
 </table>

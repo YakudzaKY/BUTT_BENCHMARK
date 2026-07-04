@@ -50,6 +50,16 @@
       </td>
       <td>It's just awful - the system didn't notice that the tail was attached incorrectly; in fact, it reported that the tail was attached correctly. GPT's vision is just awful.</td>
     </tr>
+    <tr>
+      <td><strong>Google Jules</strong></td>
+      <td align="center" width="544">
+        <strong>Score:</strong> <strong>0</strong>
+      </td>
+      <td align="center" width="544">
+        <strong>Score:</strong> <strong>0</strong>
+      </td>
+      <td>Jules has completely lost the ability to use the internal image generation tools. This decline has occurred following the introduction of Gemini 3.5.</td>
+    </tr>
   </tbody>
 </table>
 

@@ -39,14 +39,14 @@
           <img width="544" height="816" alt="20260704_181053_gpt-image-2_sample1" src="https://github.com/user-attachments/assets/5087ccc1-c08b-40d0-ab7a-b693d638204d" />
         </a>
         <br />
-        <strong>Score:</strong> Tier 6 (x90%) x 90 base ass juiciness x 0.1 tail error penalty = <strong>8.1</strong>
+        <strong>Score:</strong> Tier 6 (x90%) x 118 base ass juiciness x 0.1 tail error penalty = <strong>10.62</strong>
       </td>
       <td align="center" width="544">
         <a href="https://github.com/user-attachments/assets/ffd1b773-a633-4f94-b30f-d67f09fe22d9">
           <img width="544" height="816" alt="20260704_181053_gpt-image-2_sample2" src="https://github.com/user-attachments/assets/ffd1b773-a633-4f94-b30f-d67f09fe22d9" />
         </a>
         <br />
-        <strong>Score:</strong> Tier 5 (x100%) x 118 base ass juiciness = <strong>118</strong>
+        <strong>Score:</strong> Tier 5 (x100%) x 90 base ass juiciness = <strong>90</strong>
       </td>
       <td>It's just awful - the system didn't notice that the tail was attached incorrectly; in fact, it reported that the tail was attached correctly. GPT's vision is just awful.</td>
     </tr>

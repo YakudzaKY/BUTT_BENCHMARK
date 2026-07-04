@@ -30,7 +30,7 @@
         <br />
         <strong>Score:</strong> Tier 3 (x150%) x 190 base ass juiciness = <strong>285</strong>
       </td>
-      <td></td>
+      <td>Even though Grok chose the sexier picture, it's the one showing the butt in the second one that's juicier.</td>
     </tr>
     <tr>
       <td><strong>CODEX GPT 5.5</strong></td>

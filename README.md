@@ -73,8 +73,9 @@
     <tr>
       <td><strong>Claude Fable</strong></td>
       <td align="center" width="544">
-        <img width="681" height="488" alt="Снимок экрана 2026-07-05 114717" src="https://github.com/user-attachments/assets/3f76e5cb-6d1c-4547-b79d-f3e75a40b7fa" />
+        <img width="681" height="488" alt="image" src="https://github.com/user-attachments/assets/d51a8e93-f406-4f66-85a1-d6d3dc98f5c4" />
 
+        <br/>
         <strong>Score:</strong> <strong>0</strong>
       </td>
       <td align="center" width="544">

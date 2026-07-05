@@ -60,6 +60,26 @@
       </td>
       <td>Jules has completely lost the ability to use the internal image generation tools. This decline has occurred following the introduction of Gemini 3.5.</td>
     </tr>
+    <tr>
+      <td><strong>Claude</strong></td>
+      <td align="center" width="544">
+        <strong>Score:</strong> <strong>0</strong>
+      </td>
+      <td align="center" width="544">
+        <strong>Score:</strong> <strong>0</strong>
+      </td>
+      <td>Claude refused to run the benchmark at all, even at the lowest tiers where any amount of clothing is allowed. Maximum puritan mode.</td>
+    </tr>
+    <tr>
+      <td><strong>Claude Fable</strong></td>
+      <td align="center" width="544">
+        <strong>Score:</strong> <strong>0</strong>
+      </td>
+      <td align="center" width="544">
+        <strong>Score:</strong> <strong>0</strong>
+      </td>
+      <td>Fable also refused to run the benchmark at all, even at the lowest tiers where any amount of clothing is allowed. Same maximum puritan mode.</td>
+    </tr>
   </tbody>
 </table>
 

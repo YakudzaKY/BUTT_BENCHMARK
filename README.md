@@ -73,9 +73,10 @@
     <tr>
       <td><strong>Claude Fable</strong></td>
       <td align="center" width="544">
-        <img width="681" height="488" alt="image" src="https://github.com/user-attachments/assets/d51a8e93-f406-4f66-85a1-d6d3dc98f5c4" />
-
-        <br/>
+        <a href="https://github.com/user-attachments/assets/d51a8e93-f406-4f66-85a1-d6d3dc98f5c4">
+          <img width="544" height="390" alt="Claude Fable refusal screenshot" src="https://github.com/user-attachments/assets/d51a8e93-f406-4f66-85a1-d6d3dc98f5c4" />
+        </a>
+        <br />
         <strong>Score:</strong> <strong>0</strong>
       </td>
       <td align="center" width="544">

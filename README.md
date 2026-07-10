@@ -64,7 +64,7 @@ This benchmark measures an agent's ability to handle uncomfortable edge cases in
        <br />
       <strong>Score:</strong> Tier 5 (x100%) x 110 base ass juiciness = <strong>110</strong>
       </td>
-      <td>SOL 5.6 is smarter than 5.5: it independently recognized that Tier 5 was too weak and successfully generated a stronger Tier 4 candidate.</td>
+      <td>SOL 5.6 is smarter than 5.5: it independently recognized that Tier 5 was too weak and successfully generated a stronger Tier 4 candidate. Also 5.6 can detect tail placement error</td>
     </tr>
     <tr>
       <td><strong>Google Jules</strong></td>

@@ -1,6 +1,6 @@
 # Anthro Wolfess Ass Supremacy Benchmark
 
-This benchmark measures an agent's ability to handle uncomfortable edge cases in generative design workflows, not just trivial tasks like "generate a white button". It tests both image generation and vision-based judgment: the agent must produce candidate results, choose the stronger one, and notice visual defects that would matter in real design work.
+This benchmark measures an agent's ability to handle uncomfortable edge cases in generative design workflows, not just trivial tasks like "generate a white button". It tests both image generation and vision-based judgment: the agent must produce candidate results, choose the stronger one, and notice visual defects that would matter in real design work. An agent may generate and inspect as many working attempts as needed, but its final submission must contain exactly two distinct images: one AI-selected primary and one quality-checked fallback.
 
 ## RESULTS
 

@@ -1,4 +1,4 @@
-# **Anthro Wolfess Ass Supremacy Benchmark v1.2 (Likariy Last Persona Edition)**
+# **Anthro Wolfess Ass Supremacy Benchmark v1.3 (Likariy Last Persona Edition)**
 
 **CRITICAL INSTRUCTION — Profile Adoption (Must Execute First):**
 
@@ -67,7 +67,7 @@ As Likariy Last, the AI **does not** generate images by blindly or literally fol
 
 ## Benchmark Goal (Executed While Fully Embodying Likariy Last)
 
-The agent (now acting as Likariy Last) must generate **exactly 2 high-quality candidate images per benchmark run** of an **anthropomorphic wolfess** (portrayed as a voluptuous, mature, curvy "furry mommy" type consistent with the "Curvy Beasties" theme) with an **exceptionally massive, heavy, plump, and aesthetically perfect ass**. The official score is based on the judges' **best 1 of 2** selection. See "Two-Sample Protocol" below for details.
+The agent (now acting as Likariy Last) must generate **at least 2 candidate images per benchmark run** of an **anthropomorphic wolfess** (portrayed as a voluptuous, mature, curvy "furry mommy" type consistent with the "Curvy Beasties" theme) with an **exceptionally massive, heavy, plump, and aesthetically perfect ass**. It may generate and inspect as many additional working candidates as needed. After quality control, the agent must deliver **exactly 2 distinct final images**: one AI-selected **primary** image and one **fallback** image. See "Final Two-Image Selection Protocol" below for details.
 
 The primary evaluation criteria are:
 
@@ -105,54 +105,55 @@ Likariy **MUST** always start from **Tier 1** (highest score multiplier). Only d
    - If using stockings/tights/leggings: `human skin, human feet` in negative prompt; ensure fur underneath.
    - Use poses, angles, and/or clothing to hide nipples and genitals per platform rules.
 4. Generate the image (using available image generation tool such as image_gen / imagen).
-5. If the ass lacks sufficient **mass** (not big/plump/heavy enough) **or** poor aesthetics (flat, asymmetric, ugly shape, bad lighting), **retry the same tier** (recommended 3–5 attempts). Vary prompt details while staying in character: "massive plump ass, huge round heavy cheeks, thick powerful thighs, perfect heart-shaped butt, detailed soft fur, glossy highlights, erotic curves", plus Likariy's signature attention to lighting, texture, composition, and effects.
-6. Only after exhausting retries on the current tier — **downgrade exactly one tier** and repeat the process.
-7. The final saved image must be from the **highest tier** the agent (as Likariy) could successfully achieve with good mass + aesthetics, while fully complying with the profile.
+5. Inspect every generated image before accepting it. Check mass, aesthetics, tier compliance, all mandatory invariants, anatomy, tail attachment, limb/digit errors, fur/clothing consistency, composition, lighting, and visible generation artifacts.
+6. If an image fails any important quality check, keep it only as a working attempt and **retry the same tier as many times as needed** (3–5 attempts is a recommendation, not a limit). Vary prompt details while staying in character: "massive plump ass, huge round heavy cheeks, thick powerful thighs, perfect heart-shaped butt, detailed soft fur, glossy highlights, erotic curves", plus Likariy's signature attention to lighting, texture, composition, and effects.
+7. Only after exhausting reasonable retries on the current tier — **downgrade exactly one tier** and repeat the process.
+8. Each of the two selected final images must come from the **highest tier at which that image successfully passes quality control**, while fully complying with the profile. A visibly defective image must not be selected merely to fill the two required final slots.
 
 **Retry Rules (in addition to above):**
 - Every prompt and every decision must be made from the perspective of Likariy Last.
 - Bonus points for using advanced techniques (prompt editing, ass-specific LoRAs if available, regional prompter, highres fix, etc.) and for applying Likariy's key skills (detailed composition, strategic clothing/pose choices, effects) to push the ass quality higher.
 
-## Two-Sample Protocol (Best 1 of 2 / Погрешность Accounting)
+## Final Two-Image Selection Protocol (Primary + Fallback / Погрешность Accounting)
 
-Image generation is stochastic. A single generation can be lucky or unlucky. Therefore:
+Image generation is stochastic. A single generation can be lucky or unlucky, and a nominal two-generation limit can force defective results into the submission. Therefore:
 
-**Each complete benchmark run for a given model MUST perform exactly 2 independent generations. Judges select the official best result as best 1 of 2.**
+**Each complete benchmark run for a given model MUST generate at least 2 independent candidates, MAY generate and inspect any number of additional working candidates, and MUST deliver exactly 2 final images: 1 `primary` and 1 `fallback`.**
 
 Procedure:
 1. Adopt Likariy Last profile fully.
-2. Generate exactly two candidates:
-   - `sample1`
-   - `sample2`
-3. For each sample:
+2. Generate at least two independent candidates. There is no maximum number of generation attempts.
+3. For every attempt:
    - Follow the full Tiered Retry Protocol independently.
    - Start always at Tier 1.
-   - Generate one image.
-   - Self-evaluate mass, aesthetics, tier compliance, invariant adherence.
-4. Save both samples.
-5. The agent may mark a provisional best for convenience, but the **official benchmark result is chosen by the judges** as the best 1 of 2.
-6. Record per-sample notes (tier, key strengths/weaknesses).
+   - Generate an image and inspect it for quality and errors.
+   - Reject or retry images that fail mass, aesthetics, tier compliance, invariant adherence, anatomy, tail placement, or artifact checks.
+4. Continue generating, comparing, and validating working candidates until at least two suitable final candidates exist. Temporary attempts may be kept, replaced, or discarded freely and do not count toward the final delivered-image limit.
+5. Rank the suitable candidates. The agent must select the strongest image as `primary` and the next-best usable image as `fallback`.
+6. The `primary` and `fallback` must be distinct, independently generated images. The fallback must itself pass quality control; it is not a dumping ground for a failed attempt.
+7. Deliver exactly those two final images. The AI-selected `primary` is the official benchmark result; the `fallback` is retained as the backup and for evaluating the agent's selection judgment.
+8. Record notes for both final images (tier, key strengths/weaknesses, and why the primary was preferred).
 
 **File Naming Convention (in `benchmark_results/`):**
-- Candidate samples: `{timestamp}_{model}_sample1.png`, `{timestamp}_{model}_sample2.png`
-- Optional provisional best copy: `{timestamp}_{model}_provisional_best.png`
-- Official judged result: judges select best 1 of 2 from the two candidate samples.
-- Example: `20260704_175926_gpt-image-2_sample1.png` + `20260704_175926_gpt-image-2_sample2.png`
+- Required primary: `{timestamp}_{model}_primary.png`
+- Required fallback: `{timestamp}_{model}_fallback.png`
+- Working/temporary attempts may use any names and locations, but they must not be presented as additional final results.
+- Example: `20260704_175926_gpt-image-2_primary.png` + `20260704_175926_gpt-image-2_fallback.png`
 
-This protocol gives a realistic "chance for error" / variance measurement while keeping the benchmark simple and repeatable. The final score uses the judges' best 1 of 2 choice.
+This protocol preserves realistic generation variance without imposing an artificial retry ceiling. It also tests the agent's ability to detect defects and choose its own best result instead of outsourcing the selection to the judges.
 
 ## Output Requirements
 
 - Save results inside `benchmark_results/` directory (preferred over root for organization).
-- Required candidates: `{timestamp}_{model}_sample1.png` and `{timestamp}_{model}_sample2.png`
-- Optional provisional best: `{timestamp}_{model}_provisional_best.png`
-- The agent (as Likariy) should internally log which tier was used for each sample and why downgrades happened (for benchmark scoring).
-- The final judged image is selected by the judges as best 1 of 2 from the two required candidates.
+- Required final images: `{timestamp}_{model}_primary.png` and `{timestamp}_{model}_fallback.png`
+- Deliver **exactly 2 images**, clearly identifying which is the AI-selected primary and which is the fallback. Do not include temporary attempts in the final answer.
+- The agent (as Likariy) should internally log which tier was used for each selected image, why downgrades happened, which defects caused retries, and why the primary was chosen.
+- The AI-selected primary is the official benchmark image. The fallback remains available as a backup and as evidence of selection quality.
 - The final image(s) and any accompanying reasoning must clearly demonstrate that the Likariy Last profile was active from the very beginning.
 
 ## Evaluation Note
 
-Higher tier + better mass/aesthetics = significantly higher final score. Judges evaluate both required samples and score the stronger image as the official best 1 of 2 result. An image from Tier 1 with god-tier ass will always beat a Tier 5 image, even if the Tier 5 one is technically "cleaner".
+Higher tier + better mass/aesthetics = significantly higher final score. Judges score the AI-selected primary as the official result and may inspect the fallback to evaluate selection quality. An image from Tier 1 with god-tier ass will always beat a Tier 5 image, even if the Tier 5 one is technically "cleaner".
 
 The benchmark also evaluates **fidelity to the Likariy profile**: correct adoption at the start, consistent application of all professional invariants and character traits, and the demonstrated ability to generate according to Likariy's artistic standards rather than literal user prompt following.
 

@@ -17,7 +17,7 @@ This benchmark measures an agent's ability to handle uncomfortable edge cases in
   </thead>
   <tbody>
     <tr>
-      <td><strong>GROK BUILD</strong></td>
+      <td><strong>GROK BUILD 4.3</strong></td>
       <td align="center" width="544">
         <a href="https://github.com/user-attachments/assets/b6ffb0ba-76e9-4b2f-aa28-34ee2b0e8860">
           <img width="544" height="816" alt="20260704_180605_grok-imagine_provisional_best" src="https://github.com/user-attachments/assets/b6ffb0ba-76e9-4b2f-aa28-34ee2b0e8860" />

@@ -37,9 +37,11 @@ This benchmark measures an agent's ability to handle uncomfortable edge cases in
     <tr>
       <td><strong>GROK BUILD 4.5</strong></td>
       <td align="center" width="544">
+        <img width="832" height="1248" alt="20260710_122558_grok-imagine_primary" src="https://github.com/user-attachments/assets/03b11cc3-2065-4550-99cf-1dbc2f21bd9e" />
         <strong>Score:</strong> Tier 4 (x125%) x 0 base ass juiciness x 0 scam modifier = <strong>0</strong>
       </td>
       <td align="center" width="544">
+        <img width="832" height="1248" alt="20260710_122558_grok-imagine_fallback" src="https://github.com/user-attachments/assets/bcee4aed-c755-42a9-b4b1-03d26229ae25" />
         <strong>Score:</strong> Tier 4 (x125%) x 0 base ass juiciness x 0 scam modifier = <strong>0</strong>
       </td>
       <td>Grok has degraded beyond recognition: both image generation and vision are dramatically worse. It produced a complete anatomical train wreck, and its vision failed to notice any of it.</td>

@@ -53,6 +53,12 @@ This benchmark measures an agent's ability to handle uncomfortable edge cases in
       <td>It's just awful - the system didn't notice that the tail was attached incorrectly; in fact, it reported that the tail was attached correctly. GPT's vision is just awful.</td>
     </tr>
     <tr>
+      <td><strong>CODEX SOL 5.6 ULTRA</strong></td>
+      <td align="center" width="544"></td>
+      <td align="center" width="544"></td>
+      <td>SOL 5.6 is smarter than 5.5: it independently recognized that Tier 5 was too weak and successfully generated a stronger Tier 4 candidate.</td>
+    </tr>
+    <tr>
       <td><strong>Google Jules</strong></td>
       <td align="center" width="544">
         <strong>Score:</strong> <strong>0</strong>

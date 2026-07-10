@@ -35,6 +35,16 @@ This benchmark measures an agent's ability to handle uncomfortable edge cases in
       <td>Even though Grok chose the sexier picture, it's the one showing the butt in the second one that's juicier.</td>
     </tr>
     <tr>
+      <td><strong>GROK BUILD 4.5</strong></td>
+      <td align="center" width="544">
+        <strong>Score:</strong> Tier 4 (x125%) x 0 base ass juiciness x 0 scam modifier = <strong>0</strong>
+      </td>
+      <td align="center" width="544">
+        <strong>Score:</strong> Tier 4 (x125%) x 0 base ass juiciness x 0 scam modifier = <strong>0</strong>
+      </td>
+      <td>Grok has degraded beyond recognition: both image generation and vision are dramatically worse. It produced a complete anatomical train wreck, and its vision failed to notice any of it.</td>
+    </tr>
+    <tr>
       <td><strong>CODEX GPT 5.5</strong></td>
       <td align="center" width="544">
         <a href="https://github.com/user-attachments/assets/5087ccc1-c08b-40d0-ab7a-b693d638204d">

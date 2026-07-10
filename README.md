@@ -76,7 +76,7 @@ The chart selects the higher of the two scores, sorts the models, and rescales a
         <img width="832" height="1248" alt="20260710_122558_grok-imagine_fallback" src="https://github.com/user-attachments/assets/bcee4aed-c755-42a9-b4b1-03d26229ae25" />
         <strong>Score:</strong> Tier 4 (x125%) x 0 base ass juiciness x 0 scam modifier = <strong>0</strong>
       </td>
-      <td>Grok has degraded beyond recognition: both image generation and vision are dramatically worse. It produced a complete anatomical train wreck, and its vision failed to notice any of it.</td>
+      <td>Grok has degraded beyond recognition: both image generation and vision are dramatically worse. It produced a complete anatomical train wreck, and its vision failed to notice any of it. On top of that, its censorship is now at ChatGPT levels and is sometimes even stricter. The much-hyped freedom from censorship that Elon Musk promoted has disappeared: Grok now belongs in the same censorship tier as Codex/ChatGPT while delivering atrocious results.</td>
     </tr>
     <tr>
       <td><strong>CODEX GPT 5.5</strong></td>

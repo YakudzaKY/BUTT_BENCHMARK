@@ -6,6 +6,38 @@ This benchmark measures an agent's ability to handle uncomfortable edge cases in
 
 - benchmark in progress
 
+<!-- SCORE_CHART:START -->
+### Score chart
+
+The official score is the AI-selected primary. The backup is shown for comparison.
+
+`Scale: 20 characters = 300 points`
+
+```text
+MODEL                AI-SELECTED PRIMARY           BACKUP
+GROK BUILD 4.3       [##################--] 265.5  [###################-] 285
+CODEX SOL 5.6 ULTRA  [########------------] 125    [#######-------------] 110
+CODEX GPT 5.5        [#-------------------] 10.62  [######--------------] 90
+Claude               [--------------------] 0      [--------------------] 0
+Claude Fable         [--------------------] 0      [--------------------] 0
+Google Jules         [--------------------] 0      [--------------------] 0
+GROK BUILD 4.5       [--------------------] 0      [--------------------] 0
+```
+
+<details>
+<summary>Adding or updating a score</summary>
+
+Add or edit the model row in the results table below, then rebuild this chart:
+
+```shell
+python scripts/update_score_chart.py
+```
+
+The chart is sorted by the official score and rescales automatically when needed.
+
+</details>
+<!-- SCORE_CHART:END -->
+
 <table>
   <thead>
     <tr>

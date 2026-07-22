@@ -4,8 +4,6 @@ This benchmark measures an agent's ability to handle uncomfortable edge cases in
 
 ## RESULTS
 
-- benchmark in progress
-
 <!-- SCORE_CHART:START -->
 ### Score chart
 
